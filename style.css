@@ -37,24 +37,20 @@ body {color: #343A36;}
 .btn.btn-primary, .dk_toggle, .select-icon {background-color: #efefef; color: #343A36;}
 .dk_toggle:hover, .dk_toggle:focus, .dk_focus .dk_toggle, .dk_option_current a {background-color: #3AD679; }
 .btn.btn-primary.active {background-color: #fff;}
+.btn.btn-primary:active, .btn.btn-primary.active {background-color: #3AD679; }
+.btn.btn-primary:hover {background-color: #3AD679; }
 .share, .tile, .dk_options_inner {background-color: #efefef;}
+
 .toggle {background-color: #3AD679;}
 .toggle .toggle-radio {color: #fff;}
 .toggle.toggle-off .toggle-radio {color: #fff; }
 .toggle.toggle-off {background-color: #C4C4C4;}
 
 .dk_open .dk_toggle .select-icon {background-color: #3AD679;}
-.dk_toggle:hover, .dk_toggle:focus, .dk_focus .dk_toggle {
-    background-color: #3AD679;
-    color: #343A36;
-    outline: none; }
-  .dk_toggle:active {
-    background-color: #3AD679;}
-        .btn.btn-primary:active, .btn.btn-primary.active {
-      background-color: #3AD679; }
-      .navbar .nav ul a:hover {
-        background-color: #ff00ff; }
-        .dk_options a {color: #343A36;}
-				.dk_options a:hover {background-color: #3AD679;}
+.dk_toggle:hover, .dk_toggle:focus, .dk_focus .dk_toggle {background-color: #3AD679; color: #343A36; outline: none; }
+.dk_toggle:active {background-color: #3AD679;}
+.navbar .nav ul a:hover {background-color: #ff00ff; }
+.dk_options a {color: #343A36;}
+.dk_options a:hover {background-color: #3AD679;}
 
 
