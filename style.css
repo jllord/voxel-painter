@@ -4,13 +4,13 @@ body {
 }
 .hidden { display: none; }
 .share:before { content: none !important;}
-.share { width: 225px; }
+.share { width: 225px;}
 .color { width: 18px; height: 16px; display: block; }
-.color.one { background: #2ECC71; }
-.color.two { background: #3498DB; }
-.color.three { background: #34495E; }
-.color.four { background: #E67E22; }
-.color.five { background: #ECF0F1; }
+.color.one { background: #7F7C5C; }
+.color.two { background: #343A36; }
+.color.three { background: #3AD679; }
+.color.four { background: #18EAEA; }
+.color.five { background: #FF681D; }
 .demo-text-box { margin-right: 24px; }
 .demo-panel-title { margin-bottom: 10px !important; padding-top: 10px !important; }
 #instructions { width: 250px; position: absolute; top: 0px; right: 0px; }
@@ -29,3 +29,32 @@ body {
 .voxel-share textarea { display: none; }
 #browse .demo-browser-content { background-color: transparent; }
 #browse .demo-browser-content img { border: 1px solid #7F8B97; }
+
+/* jllord overrides */
+
+body {color: #343A36;}
+
+.btn.btn-primary, .dk_toggle, .select-icon {background-color: #efefef; color: #343A36;}
+.dk_toggle:hover, .dk_toggle:focus, .dk_focus .dk_toggle, .dk_option_current a {background-color: #3AD679; }
+.btn.btn-primary.active {background-color: #fff;}
+.share, .tile, .dk_options_inner {background-color: #efefef;}
+.toggle {background-color: #3AD679;}
+.toggle .toggle-radio {color: #fff;}
+.toggle.toggle-off .toggle-radio {color: #fff; }
+.toggle.toggle-off {background-color: #C4C4C4;}
+
+.dk_open .dk_toggle .select-icon {background-color: #3AD679;}
+.dk_toggle:hover, .dk_toggle:focus, .dk_focus .dk_toggle {
+    background-color: #3AD679;
+    color: #343A36;
+    outline: none; }
+  .dk_toggle:active {
+    background-color: #3AD679;}
+        .btn.btn-primary:active, .btn.btn-primary.active {
+      background-color: #3AD679; }
+      .navbar .nav ul a:hover {
+        background-color: #ff00ff; }
+        .dk_options a {color: #343A36;}
+				.dk_options a:hover {background-color: #3AD679;}
+
+
